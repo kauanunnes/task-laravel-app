@@ -6,3 +6,19 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+.anchor-btn-link {
+  padding: 10px;
+  background: var(--bs-blue);  
+  color: white;
+  border-radius: 5px;
+  display: block;
+  float: right;
+  transition: all .1s;
+
+  &:hover {
+    text-decoration: none!important;
+    color: white!important;
+    opacity: 0.7;
+  }
+}
